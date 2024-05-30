@@ -1,0 +1,63 @@
+
+
+/* Footer section style */
+
+footer{
+    bottom: 0;
+    width: 100%;
+    color: white;
+    position: relative;
+    background-color: #1c1d1f;
+}
+svg:hover{
+    cursor: pointer;
+}
+table tr td a{
+    color: black;
+    color: white;
+    text-decoration: none;
+    text-decoration: inherit;
+}
+table tr td a:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    gap: 15px;
+    width: 97%;
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+    justify-content: end;
+    align-items: center;
+}
+table{
+    width: 45%;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.footer__bottom img{
+    width: 80px;
+    height: 60px;
+}
+.footer__bottom{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+    justify-content: space-between;
+}
+.buttons{
+    top: 0;
+    right: 0;
+    display: flex;
+    font-size: 18px;
+    margin-top: 110px;
+    margin-right: 50px;
+    position: absolute;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: end;
+    border: 2px solid #888;
+}
